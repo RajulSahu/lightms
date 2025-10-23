@@ -1,10 +1,10 @@
 package main
 
 import (
-	"github.com/rendis/lightms/v3"
-	"github.com/rendis/lightms/v3/example/infra/config"
-	_ "github.com/rendis/lightms/v3/example/infra/config"
-	_ "github.com/rendis/lightms/v3/example/infra/secondary"
+	lightms "github.com/RajulSahu/lightms/v3"
+	"github.com/RajulSahu/lightms/v3/example/infra/config"
+	_ "github.com/RajulSahu/lightms/v3/example/infra/config"
+	_ "github.com/RajulSahu/lightms/v3/example/infra/secondary"
 )
 
 func main() {

@@ -1,9 +1,10 @@
 package impl
 
 import (
-	"github.com/rendis/lightms/v3/example/core/port"
-	"github.com/rendis/lightms/v3/example/core/usecase"
 	"log"
+
+	"github.com/RajulSahu/lightms/v3/example/core/port"
+	"github.com/RajulSahu/lightms/v3/example/core/usecase"
 )
 
 func NewJohnDoeImpl(p port.PersistencePort) usecase.JohnDoeUseCase {

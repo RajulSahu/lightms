@@ -1,12 +1,13 @@
 package primary
 
 import (
-	"github.com/rendis/lightms/v3"
-	"github.com/rendis/lightms/v3/example/core/usecase"
-	"github.com/rendis/lightms/v3/example/infra/config/prop"
 	"log"
 	"strconv"
 	"time"
+
+	"github.com/RajulSahu/lightms/v3"
+	"github.com/RajulSahu/lightms/v3/example/core/usecase"
+	"github.com/RajulSahu/lightms/v3/example/infra/config/prop"
 )
 
 func NewJohnDoeSubscription(johnDoeUseCase usecase.JohnDoeUseCase, psProp *prop.PubSubProp) lightms.PrimaryProcess {

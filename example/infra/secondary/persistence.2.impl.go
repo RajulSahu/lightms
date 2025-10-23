@@ -1,8 +1,9 @@
 package secondary
 
 import (
-	"github.com/rendis/lightms/v3/example/infra/config/prop"
 	"log"
+
+	"github.com/RajulSahu/lightms/v3/example/infra/config/prop"
 )
 
 func NewPersistence2Port(dbProp *prop.DatabaseProp) *PersistencePort2Impl {
